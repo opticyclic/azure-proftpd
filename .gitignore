@@ -1,0 +1,15 @@
+# Ignore all IDEA files apart from the VCS file
+.idea/*
+!.idea/vcs.xml
+
+## Terraform
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+## Ansible
+*.retry
